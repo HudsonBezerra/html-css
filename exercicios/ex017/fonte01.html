@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in (polegada), px*, pc
+
+            Medidas Relativas
+            em*, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            
+            /* lighter normal bold bolder */
+        }     
+        
+        h1 {
+            /* Shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;        
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe fuga explicabo nostrum, enim perspiciatis obcaecati in! Perferendis neque at sint harum totam, accusantium eius nulla deserunt veniam fuga, culpa laborum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus laboriosam minima quasi fuga. Dignissimos quis minus suscipit exercitationem quod praesentium quas, laborum sunt facilis harum, voluptates rem necessitatibus dolor similique.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt ipsa necessitatibus, aspernatur nihil aliquam doloremque iste modi facere consequatur similique quod odit dolore laborum ipsam deserunt eos eligendi velit nemo!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam reiciendis veniam laboriosam, repellendus saepe, molestiae explicabo ut fugit, iusto architecto aliquid tempora neque consectetur animi cumque. Neque magnam doloribus sequi.</p>
+</body>
+</html>

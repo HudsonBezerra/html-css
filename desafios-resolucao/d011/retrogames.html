@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Evolução dos Video Games</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Press Start 2P', cursive;
+      background: #111;
+      color: #f1f1f1;
+    }
+
+    header {
+      background: #222;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 4px solid #0ff;
+    }
+
+    header h1 {
+      font-size: 1.2rem;
+      color: #00ffff;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: #f1f1f1;
+      text-decoration: none;
+    }
+
+    .hero {
+      background: url('https://i.imgur.com/f6p0hVo.png') no-repeat center;
+      background-size: contain;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .hero h2 {
+      margin-top: 40px;
+      font-size: 1rem;
+      color: #0ff;
+    }
+
+    .btn-start {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #0ff;
+      color: #000;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    section {
+      padding: 40px 20px;
+      border-bottom: 2px dashed #444;
+    }
+
+    section h3 {
+      color: #ffff00;
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .timeline, .locadora, .curiosidades, .explorar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #222;
+      padding: 20px;
+      border: 2px solid #0ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      font-size: 0.7rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>A Evolução dos Video Games</h1>
+    <nav>
+      <a href="#linha-tempo">Linha do Tempo</a>
+      <a href="#locadoras">Locadoras</a>
+      <a href="#curiosidades">Curiosidades</a>
+      <a href="#explorar">Explorar</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Do Pixel ao Poder Gráfico: A Jornada Épica dos Videogames</h2>
+    <button class="btn-start">Start Game</button>
+  </div>
+
+  <section id="linha-tempo">
+    <h3>🕹 Linha do Tempo Gamer</h3>
+    <div class="timeline">
+      <div class="card">1ª Geração: Pong</div>
+      <div class="card">2ª Geração: Atari 2600</div>
+      <div class="card">3ª Geração: NES / Master System</div>
+      <div class="card">4ª Geração: SNES / Mega Drive</div>
+      <div class="card">... até a 9ª geração</div>
+    </div>
+  </section>
+
+  <section id="locadoras">
+    <h3>📼 Locadoras: O Paraíso Gamer dos anos 90</h3>
+    <div class="locadora">
+      <div class="card">Escolha da semana: Donkey Kong Country</div>
+      <div class="card">Cartucho riscado? Sopra e vai!</div>
+      <div class="card">Quem perdia passava o controle</div>
+    </div>
+  </section>
+
+  <section id="curiosidades">
+    <h3>🤯 Curiosidades & Códigos</h3>
+    <div class="curiosidades">
+      <div class="card">Konami Code salva vidas</div>
+      <div class="card">Primeiro easter egg: Adventure (1980)</div>
+      <div class="card">Tetris ajuda contra o estresse</div>
+    </div>
+  </section>
+
+  <section id="explorar">
+    <h3>🚀 Explorar a Linha do Tempo Gamer</h3>
+    <div class="explorar">
+      <div class="card">SNES - Top 3 Jogos</div>
+      <div class="card">PlayStation 1 - Top 3 Jogos</div>
+      <div class="card">Mega Drive - Top 3 Jogos</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>O jogo muda, mas o jogador raiz sempre lembra onde tudo começou. 🕹</p>
+    <p>© 2025 - A Evolução dos Video Games</p>
+  </footer>
+</body>
+</html>
