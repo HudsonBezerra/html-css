@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -27,8 +28,15 @@
         }
 
         thead, tfoot {
-            background-color: rgb(60, 60, 60);
+            background-color: #3c3c3c;
             color: white;
+        }
+
+        /* Cabeçalho fixo em tabelas grandes */
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #3c3c3c;
         }
 
         /* Efeito zebrado*/
